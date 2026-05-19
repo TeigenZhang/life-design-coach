@@ -38,6 +38,23 @@
 
 **前提**：已安装并登录 [Claude Code](https://docs.claude.com/en/docs/claude-code/overview)（Node 18+，`claude --version` 能跑通）。
 
+> 📦 **还没装 Claude Code？** 方案一的"配置文档"（下面第一个链接）已经把 Node 安装、`npm install`、环境变量配置都写全了 —— 看不懂的步骤可以把链接丢给豆包或 DeepSeek，享受针对性指导。
+>
+> 💡 **没有 Anthropic 账号 / 卡在登录这一步？** Claude Code CLI 本身可以接任意兼容的 API。下面两条路二选一，都能让 `claude` 命令在没有官方账号的情况下跑起来 —— 把这一步绕开后，再回到下面的 `git clone` 继续即可。
+>
+> **方案一：第三方中转站（aicodewith）—— 支持 Claude 系列模型**
+>
+> - 配置文档：[https://docs.aicodewith.com/zh/docs/claude-code](https://docs.aicodewith.com/zh/docs/claude-code)
+> - 注册（含邀请码）：[https://aicodewith.com/zh/login?tab=register&invitation=2QRKDZK](https://aicodewith.com/zh/login?tab=register&invitation=2QRKDZK)
+> - ✅ 可直接调用 Claude Opus / Sonnet，使用效果好
+> - ⚠️ 对话需经第三方中转，**有隐私风险**
+>
+> **方案二：DeepSeek 官方 API —— 隐私优先**
+>
+> - 配置文档：[https://api-docs.deepseek.com/zh-cn/guides/coding_agents](https://api-docs.deepseek.com/zh-cn/guides/coding_agents)
+> - ✅ 直连 DeepSeek 官方，没有第三方中转环节，隐私保障性更好
+> - ⚠️ DeepSeek 模型能力与 Claude Opus 存在一定差距
+
 ```bash
 git clone https://github.com/TeigenZhang/life-design-coach.git
 cd life-design-coach
